@@ -1,0 +1,77 @@
+1. f_cry_mfcc_64
+
+parameters-
+	'C': 10, 'degree': 2, 'gamma': 0.0001, 'kernel': 'rbf'
+
+
+Accuracy-
+test_cry- 75.7%
+test_noise- 90.6%
+
+
+
+2. f_cry_mfcc,chroma
+
+ (no difference same as mfcc64)
+
+
+3. f_cry_mfcc,mel
+   (no segregation)(bad results)
+
+
+4.f_cry_mfccs,spectral_centroids,spectral_rolloff
+
+    parameters:-
+	
+
+
+
+5.f_cry_mfccs,rms,zcr
+	(same as mfcc64)
+
+
+6.f_cry_mfccs,contrast,tonnetz.npy
+	(same as mfcc64)
+ 
+7.cry+glass(mfcc64)
+
+	parameters-'C': 10, 'degree': 2, 'gamma': 0.0001, 'kernel': 'rbf'
+
+	Accuracy glass- 91.05%
+    		 cry- 100%
+
+8.cry+glass+noise(mfcc64)
+
+	parameters-'C': 10, 'degree': 2, 'gamma': 0.0001, 'kernel': 'rbf'
+
+	accuracy - crying-81.4%
+		   noise- 80%
+		   glass- 82.6%
+
+9.cry+glass+noise(5pre)(5,2,2)
+
+  		accuracy - crying-90.45%
+		   noise- 76%
+		   glass- 91.05%
+
+10.cry+glass+noise(5pre)(5,5,5)
+
+		accuracy - crying-82.4%
+		   noise- 82.7%
+		   glass- 80.4%
+
+11.cry+glass+noise(10pre)(10,10,10)
+
+		accuracy - crying-81.9%
+		   noise- 84.17%
+		   glass- 80.4%
+
+12.cry+glass+noise(3pre)(3,3,3)
+
+		accuracy - crying-82.4%
+		   noise- 81.2%
+		   glass- 80.905
+	
+
+
+ 
