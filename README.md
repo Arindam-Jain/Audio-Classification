@@ -25,4 +25,6 @@ Support Vector Machine (SVM)
 ![image](https://user-images.githubusercontent.com/40122399/85192261-7c3c5000-b2df-11ea-9254-01ce74d1312b.png)
 
 # BEST RESULTS- Hyperplane
+![image](https://user-images.githubusercontent.com/40122399/85192548-8a3ea080-b2e0-11ea-8b2a-7c82aeb26b51.png)
+
 
