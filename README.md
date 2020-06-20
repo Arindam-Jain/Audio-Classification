@@ -19,4 +19,10 @@ Extracted MFCC features from dataset and created ‘.npy’ files for  training.
 Support Vector Machine (SVM)
 
 # Results:- Features
+![image](https://user-images.githubusercontent.com/40122399/85192169-25367b00-b2df-11ea-93b0-f40a52afdfb7.png)
+
+# FINAL RESULTS
+![image](https://user-images.githubusercontent.com/40122399/85192261-7c3c5000-b2df-11ea-9254-01ce74d1312b.png)
+
+# BEST RESULTS- Hyperplane
 
